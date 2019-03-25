@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mens Running Shoes</title>
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
+    <!-- CSS -->
+    <link href="style.css" rel="stylesheet">
+    <meta name="robots" content="noindex,follow" />
+
+  </head>
+
+  <body>
+    <main class="container">
+
+      <!-- Left Column / Headphones Image -->
+      <div class="left-column">
+        <img data-image="Gray" src="images/mensgray.jpg" alt="">
+        <img data-image="Mango" src="images/mensmango.jpg" alt="">
+        <img data-image="OceanBlue" class="active" src="images/mensoceanblue.jpg" alt="">
+      </div>
+
+
+      <!-- Right Column -->
+      <div class="right-column">
+
+        <!-- Product Description -->
+        <div class="product-description">
+          <span>Men's Running Shoes</span>
+          <h1>UA HOVR Velociti 2</h1>
+          <p>The perfect everyday running/ jogging shoe. Excellent in all conditions. Comfortable support and extra cushioning for the best performance.</p>
+        </div>
+
+        <!-- Product Configuration -->
+        <div class="product-configuration">
+
+          <!-- Product Color -->
+          <div class="product-color">
+            <span>Color</span>
+
+            <div class="color-choose">
+              <div>
+                <input data-image="OceanBlue" type="radio" id="OceanBlue" name="color" value="OceanBlue" checked>
+                <label for="OceanBlue"><span></span></label>
+              </div>
+              <div>
+                <input data-image="Mango" type="radio" id="Mango" name="color" value="Mango">
+                <label for="Mango"><span></span></label>
+              </div>
+              <div>
+                <input data-image="Gray" type="radio" id="Gray" name="color" value="Gray">
+                <label for="Gray"><span></span></label>
+              </div>
+            </div>
+
+          </div>
+
+
+        <!-- Product Pricing -->
+        <div class="product-price">
+          <span>$120.00</span>
+          <a href="#" class="cart-btn">Add to cart</a>
+        </div>
+      </div>
+    </main>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js" charset="utf-8"></script>
+    <script src="script.js" charset="utf-8"></script>
+  </body>
+</html>
